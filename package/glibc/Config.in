@@ -10,6 +10,12 @@ config BR2_PACKAGE_GLIBC
 	help
 	  https://www.gnu.org/software/libc/
 
+config BR2_PACKAGE_GLIBC_2_22
+        bool "glibc 2.22"
+        default y if !BR2_TOOLCHAIN_HEADERS_AT_LEAST_3_2
+        # No support for pthread barriers on < v9 ISA
+        depends on !BR2_sparc
+
 config BR2_PACKAGE_GLIBC_UTILS
 	bool "Install glibc utilities"
 	help
