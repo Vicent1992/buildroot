@@ -1,0 +1,4 @@
+config BR2_PACKAGE_VIOS_APP_EXIV2
+	bool "vios app exiv2 test"
+	select BR2_PACKAGE_EXIV2
+

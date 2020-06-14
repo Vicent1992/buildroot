@@ -1,1 +1,2 @@
 source "package/vios/app/graphic/vios_freetype/Config.in"
+source "package/vios/app/graphic/jpeg/Config.in"
