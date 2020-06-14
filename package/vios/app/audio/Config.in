@@ -1,0 +1,1 @@
+source "package/vios/app/audio/vios_alsa/Config.in"

@@ -1,0 +1,4 @@
+config BR2_PACKAGE_VIOS_APP_ALSA
+	bool "vios app alsa test"
+	select BR2_PACKAGE_ALSA_LIB
+

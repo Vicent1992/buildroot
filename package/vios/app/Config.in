@@ -2,6 +2,7 @@
 menu "Vios App Package"
 
 source "package/vios/app/program/Config.in"
+source "package/vios/app/audio/Config.in"
 
 endmenu
 
