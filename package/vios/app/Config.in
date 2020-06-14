@@ -1,0 +1,8 @@
+# Vios App packages
+menu "Vios App Package"
+
+source "package/vios/app/program/Config.in"
+
+endmenu
+
+

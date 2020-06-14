@@ -1,0 +1,5 @@
+# Vios BSP packages
+
+## Vios BSP App package
+source "package/vios/app/Config.in"
+

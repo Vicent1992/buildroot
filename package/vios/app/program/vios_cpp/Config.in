@@ -1,0 +1,3 @@
+config BR2_PACKAGE_VIOS_APP_CPP
+	bool "vios app cpp testi"
+
