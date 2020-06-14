@@ -1,0 +1,4 @@
+config BR2_PACKAGE_VIOS_APP_FREETYPE
+	bool "vios app freetype test"
+	select BR2_PACKAGE_FREETYPE
+
