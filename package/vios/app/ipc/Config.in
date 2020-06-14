@@ -1,0 +1,2 @@
+source "package/vios/app/ipc/vios_dbus/Config.in"
+

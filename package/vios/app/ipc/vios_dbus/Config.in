@@ -1,0 +1,5 @@
+config BR2_PACKAGE_VIOS_APP_DBUS
+	bool "vios app dbus test"
+	select BR2_PACKAGE_DBUS
+	select BR2_PACKAGE_EXPAT
+
