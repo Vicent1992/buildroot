@@ -1,0 +1,3 @@
+source "package/vios/app/other/vios_libsigc/Config.in"
+source "package/vios/app/other/vios_rxcpp/Config.in"
+

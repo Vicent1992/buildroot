@@ -1,0 +1,4 @@
+config BR2_PACKAGE_VIOS_APP_LIBSIGC
+	bool "vios app libsigc++ test"
+	select BR2_PACKAGE_LIBSIGC
+

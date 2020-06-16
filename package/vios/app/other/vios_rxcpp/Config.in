@@ -1,0 +1,3 @@
+config BR2_PACKAGE_VIOS_APP_RXCPP
+	bool "vios app rxcpp test"
+

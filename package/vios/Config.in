@@ -2,4 +2,4 @@
 
 ## Vios BSP App package
 source "package/vios/app/Config.in"
-
+source "package/vios/external/Config.in"

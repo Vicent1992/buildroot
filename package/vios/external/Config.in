@@ -1,0 +1,9 @@
+# Vios External Libraries packages
+menu "Vios External Libraries Package"
+
+source "package/vios/external/rxcpp/Config.in"
+source "package/vios/external/catch/Config.in"
+
+endmenu
+
+

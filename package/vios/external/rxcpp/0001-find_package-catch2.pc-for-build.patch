@@ -1,0 +1,28 @@
+From c4f6bf99b7070f91b9c792dd7ec308ae8d5161be Mon Sep 17 00:00:00 2001
+From: "vicent.chi" <vicent.chi@rock-chips.com>
+Date: Tue, 16 Jun 2020 17:35:17 +0800
+Subject: [PATCH] find_package catch2.pc for build
+
+---
+ CMakeLists.txt | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index ae61a35..b179512 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1,5 +1,11 @@
+ cmake_minimum_required(VERSION 3.2 FATAL_ERROR)
+ 
++find_package(PkgConfig)
++pkg_check_modules(catch REQUIRED catch2)
++include_directories(
++	${catch_INCLUDE_DIRS}
++	${catch_INCLUDE_DIRS}/catch2)
++
+ # define some folders
+ 
+ add_subdirectory(projects/CMake build)
+-- 
+2.26.1
+
