@@ -1,0 +1,4 @@
+config BR2_PACKAGE_VIOS_APP_NLOHMANN
+	bool "vios app nlohmann json test"
+	select BR2_PACKAGE_JSON_FOR_MODERN_CPP
+
