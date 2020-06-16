@@ -1,0 +1,4 @@
+config BR2_PACKAGE_VIOS_APP_JSONC
+	bool "vios app json-c test"
+	select BR2_PACKAGE_JSON_C
+
