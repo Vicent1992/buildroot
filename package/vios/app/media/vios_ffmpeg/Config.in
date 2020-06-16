@@ -1,0 +1,4 @@
+config BR2_PACKAGE_VIOS_APP_FFMPEG
+	bool "vios app ffmpeg test"
+	select BR2_PACKAGE_FFMPEG
+

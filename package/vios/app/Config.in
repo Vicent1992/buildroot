@@ -5,6 +5,7 @@ source "package/vios/app/audio/Config.in"
 source "package/vios/app/graphic/Config.in"
 source "package/vios/app/ipc/Config.in"
 source "package/vios/app/json/Config.in"
+source "package/vios/app/media/Config.in"
 source "package/vios/app/program/Config.in"
 
 endmenu
