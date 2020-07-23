@@ -1,0 +1,15 @@
+# Vios App packages
+menu "Vios App Package"
+
+config BR2_PACKAGE_VIOS_APP_MEDIA
+	bool "vios app media apps"
+if BR2_PACKAGE_VIOS_APP_MEDIA
+
+config BR2_PACKAGE_VIOS_APP_MEDIA_OPENCV
+	bool "vios app media opencv apps"
+
+endif
+
+endmenu
+
+

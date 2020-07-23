@@ -1,0 +1,4 @@
+config BR2_PACKAGE_VIOS_UTILS
+	bool "vios utils"
+	help
+	  vios utils

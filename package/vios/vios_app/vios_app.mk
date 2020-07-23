@@ -1,0 +1,15 @@
+VIOS_APP_SITE = $(TOPDIR)/../app/
+VIOS_APP_SITE_METHOD = local
+VIOS_APP_INSTALL_STAGING = YES
+
+# add dependencies
+ifeq ($(BR2_PACKAGE_VIOS_APP_MEDIA),y)
+VIOS_APP_CONF_OPTS += -DBUILD_MEDIA=ON
+ifeq ($(BR2_PACKAGE_VIOS_APP_MEDIA_OPENCV),y)
+VIOS_APP_DEPENDENCIES += opencv
+VIOS_APP_CONF_OPTS += -DBUILD_OPENCV=ON
+endif
+endif
+
+$(eval $(cmake-package))
+

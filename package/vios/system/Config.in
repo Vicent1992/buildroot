@@ -1,0 +1,8 @@
+# Vios System Libraries packages
+menu "Vios System Libraries Package"
+
+source "package/vios/system/vios_utils/Config.in"
+
+endmenu
+
+
