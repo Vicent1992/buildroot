@@ -1,0 +1,4 @@
+config BR2_PACKAGE_LIBXCAM
+	bool "libxcam"
+	help
+	  intel libxcam
